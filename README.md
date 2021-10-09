@@ -10,3 +10,6 @@ Moving the image with the mouse.
 
 ### To do
 * Magnification to the cursor
+
+###Source
+[Link](https://github.com/Doliman100/Simple-Image-Viewer)
