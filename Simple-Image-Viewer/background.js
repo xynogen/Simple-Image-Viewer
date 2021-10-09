@@ -22,9 +22,9 @@ function onHeadersReceived(details)
 
 function onTabUpdated(_, changeInfo, tab)
 {
-	if (/^file:\/\/\/.+\.(jpe?g|png|gif|ico|bmp|webp|jfif|pjp(eg)?)$/.test(tab.url) && changeInfo.status === "loading" || tabs.has(tab.id))
+	if (/^file:\/\/\/.+\.(jpeg|png|gif|ico|bmp|webp|jfif|pjp(eg)?)$/.test(tab.url) && changeInfo.status === "loading" || tabs.has(tab.id))
 	{
-		// console.log(changeInfo, tab);
+		// console.log(tab.url);
 
 		inject(tab.id);
 
