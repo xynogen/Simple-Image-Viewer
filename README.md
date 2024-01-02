@@ -1,5 +1,5 @@
 # Simple Image Viewer
-Moving the image with the mouse.
+Personal Project to teach myself how to make Chrome Web Extension
 
 ### Shortcuts
 * [R] - Rotate CW 90 degrees
